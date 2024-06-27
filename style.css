@@ -191,3 +191,14 @@ h1 {
     padding: 7px 30px;
     font-weight: 600;
 }
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    padding: 30px;
+    justify-content: center;
+}
