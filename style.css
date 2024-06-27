@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-styles {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* Header Styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.headerLogo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Hero Styles */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 0 200px;
+    gap: 30px
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-left p {
+    margin: 0;
+}
+
+.hero-right img {
+    width: 400px;
+    height: 180px;
+    object-fit: cover;
+}
