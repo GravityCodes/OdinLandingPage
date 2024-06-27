@@ -102,15 +102,17 @@ h1 {
 
 .container {
     display: flex;
-    gap: 5px;
+    gap: 40px;
+    justify-content: center;
 }
 
 .items {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    flex-basis: 0;
+    gap: 5px;
     
 }
 
